@@ -4,8 +4,7 @@ import './App.css';
 
 import DataRouter from '@hasura-console/core';
 
-console.log('Data router');
-console.log(DataRouter);
+import { Tab } from '@hasura-console/tab';
 
 function App() {
   return (
@@ -24,6 +23,7 @@ function App() {
           Learn React
         </a>
         <DataRouter />
+        <Tab />
       </header>
     </div>
   );
