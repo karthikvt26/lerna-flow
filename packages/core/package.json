@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --mode=development",
     "build": "webpack --mode=production",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +26,10 @@
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-links": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/react": "^5.2.8",
     "babel-loader": "^8.0.6",
     "preset-react": "^1.0.0",
     "webpack": "^4.41.2",
